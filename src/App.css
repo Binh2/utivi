@@ -1,0 +1,147 @@
+/* 
+body {
+  height: 1000px;
+  scrollbar-color: green blue;
+  overflow-y: scroll
+}
+::-webkit-scrollbar-thumb {
+  background: black;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #f0f0f0 !important;
+} */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0;
+  background-color: transparent;
+}
+.header__left, .header__center, .header__right {
+  display: flex;
+  align-items: center;
+}
+.header__left {
+  width: 244px;
+}
+
+.--button {
+  /* width: 40px; */
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  /* overflow: hidden; */
+}
+.hamburger-menu {
+  width: 40px;
+  background: transparent;
+  margin-left: 20px;
+}
+.hamburger-menu:hover {
+  background-color: #e9ecef;
+  cursor: pointer;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  border: none;
+  background: transparent;
+}
+.logo:hover {
+  cursor: pointer;
+}
+.logo__text {
+  font-weight: 700;
+  font-size: 24px;  
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  float: right;
+  width: 500px;
+  margin-left: 60px;
+  margin-right: 20px;
+  box-sizing: border-box;
+  border: 1px solid #c6c6c6;
+}
+.search-bar__input {
+  flex-grow: 1;
+  border: none;
+  width: 40px;
+  height: 100%;
+  border: none;
+  padding: 0 16px;
+  font-size: 16px;
+}
+.search-bar__input:focus {
+  outline: none;
+}
+.search-bar__button {
+  width: 64px;
+  height: 100%;
+  border: none; 
+  border-left: 1px solid #c6c6c6;
+  background: #f8f8f8;
+}
+.search-bar__button:hover {
+  background: #f0f0f0;
+  cursor: pointer;
+}
+.search-bar__first {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.search-bar__last {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.voice-recorder-button {
+  width: 40px;  
+  background: #f8f8f8;
+}
+.voice-recorder-button:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.create-video-button {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-right: 20px;
+  background: #f8f8f8;
+}
+.create-video-button:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+.create-video-button__text {
+  margin-left: 4px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.notification-button {
+  margin-right: 20px;
+  width: 40px;
+  background: transparent;
+}
+.notification-button:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+.profile-button {
+  margin-right: 20px;
+  background: transparent
+}
+.profile-button:hover {
+  cursor: pointer;
+  background-color: #f0f0f0;
+}
+.profile-button__img {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  overflow: hidden;
+}
